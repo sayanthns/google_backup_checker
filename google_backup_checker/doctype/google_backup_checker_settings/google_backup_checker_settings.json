@@ -1,28 +1,24 @@
 {
   "doctype": "DocType",
-  "name": "Kuma URL Config",
+  "name": "Google Backup Checker Settings",
   "module": "Google Backup Checker",
   "custom": 0,
+  "is_single": 1,
   "fields": [
     {
       "fieldname": "kuma_push_url",
       "label": "Kuma Push URL",
       "fieldtype": "Data",
-      "reqd": 1,
-      "in_list_view": 1
+      "reqd": 1
     }
   ],
   "permissions": [
     {
       "role": "System Manager",
-      "permlevel": 0,
       "read": 1,
       "write": 1,
       "create": 1,
       "delete": 1
     }
-  ],
-  "istable": 0,
-  "editable_grid": 0,
-  "track_changes": 0
+  ]
 }
