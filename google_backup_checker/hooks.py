@@ -2,7 +2,7 @@ app_name = "google_backup_checker"
 app_title = "Google Backup Checker"
 app_publisher = "Your Name"
 app_description = "Triggers Kuma on GDrive backup"
-app_email = "email@example.com"
+app_email = "your@email.com"
 app_license = "MIT"
 
 doc_events = {
